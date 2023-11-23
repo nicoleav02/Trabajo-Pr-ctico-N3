@@ -1,0 +1,25 @@
+vector = []
+
+for i in range(5):
+    dato = float(input(f"Ingrese un dato para la posición {i + 1}: "))
+    vector.append(dato)
+
+print("Vector original:", vector)
+
+// Insertar un nuevo elemento en la posición 2
+nuevo_elemento_posicion2 = float(input("Ingrese el nuevo elemento para la posición 2: "))
+vector.insert(1, nuevo_elemento_posicion2)
+
+//Imprimir el vector después del cambio en la posición 2
+print("Vector después del caambio en la posición 2:", vector)
+
+//Eliminar el elemento de la última posición
+elemento_eliminado = vector.pop()
+
+print("Vector después de eliminar el elemento de la última posición:", vector)
+
+// Añadir un nuevo elemento en la última posición
+nuevo_elemento_ultima_posicion = float(input("Ingrese el nuevo elemento para la última posición: "))
+vector.append(nuevo_elemento_ultima_posicion)
+
+print("Vector después de añadir un nuevo elemento en la última posición:", vector)
