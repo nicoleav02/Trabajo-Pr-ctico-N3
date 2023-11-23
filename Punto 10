@@ -1,0 +1,29 @@
+import random
+
+// Definir la matriz
+matriz = [[1, 23, 43, 50],
+          [80, 12, 43, 2],
+          [21, 33, 90, 12],
+          [3, 4, 44, 11]]
+
+// Obtener una columna aleatoria
+columna_aleatoria = random.randint(0, len(matriz) - 1)
+
+// Obtener la suma de la columna
+suma_columna = 0
+for elemento in matriz[columna_aleatoria]:
+  suma_columna += elemento
+
+// Imprimir la suma de la columna
+print(f"La suma de la columna {columna_aleatoria} es: {suma_columna}")
+
+// Obtener una fila aleatoria
+fila_aleatoria = random.randint(0, len(matriz) - 1)
+
+// Obtener la suma de la fila
+suma_fila = 0
+for elemento in matriz[fila_aleatoria]:
+  suma_fila += elemento
+
+// Imprimir la suma de la fila
+System.out.println(f"La suma de la fila {fila_aleatoria} es: {suma_fila}")
