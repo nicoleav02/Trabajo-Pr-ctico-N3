@@ -22,4 +22,4 @@ print("Vector después de eliminar el elemento de la última posición:", vector
 nuevo_elemento_ultima_posicion = float(input("Ingrese el nuevo elemento para la última posición: "))
 vector.append(nuevo_elemento_ultima_posicion)
 
-print("Vector después de añadir un nuevo elemento en la última posición:", vector)
+System.out.println("Vector después de añadir un nuevo elemento en la última posición:", vector)
