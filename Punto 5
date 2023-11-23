@@ -1,0 +1,18 @@
+import java.util.Scanner; 
+public clases ContarPositivosNegativo {
+   public static void Main(String [] args) { 
+       scaner scaner = new Scaner(System.in); 
+// vector de 15 posiciones debe ser creado
+       int[] datos = new int[15]; 
+int positivos = 0; 
+    int negativos = 0;
+//ingresar Datos de usuario 
+
+for(datos[i] >0) {
+                  positivos++; 
+             } ese if (datos[i] < 0) {
+                    negativos++; 
+             } 
+}  
+system.out.println("Cantidad de datos positivos:" + positivos); 
+system.out.println("Cantidad de datos negativos:" + negativos);
