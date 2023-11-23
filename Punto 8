@@ -1,0 +1,20 @@
+//
+public class Matriz3x3{ 
+    public static void Main (String [] arg) {
+
+          int matriz_enteros [][] = net int [3][3] 
+              matriz_enteros [0] [0] = 1
+              matriz_enteros [0] [1] = 17
+              matriz_enteros [0] [2] = 10
+              matriz_enteros [1] [0] = 6
+              matriz_enteros [1] [1] =67
+              matriz_enteros [1] [2] = 2
+              matriz_enteros [2] [0] = 5
+              matriz_enteros [2] [1] = 60
+              matriz_enteros [2] [2] = 21
+
+          for(int f = 0; f < 2; f++){ 
+          for(int c = 0; c < 2; f++){
+
+     System.out.println("posición f:" + f + "c: "+ c);
+     System.out.println ("guardar valor:" matriz_enteros
