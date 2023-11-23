@@ -1,0 +1,7 @@
+for i in range(10):
+    valor_entero = int(input("5"))
+    vector_entero.append(valor_entero)
+repeticiones_cinco = vector_entero.count(5)
+
+print("Vector de enteros:", vector_entero)
+print(5)
