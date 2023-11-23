@@ -1,0 +1,26 @@
+public class Matriz4x4{ 
+    public static void Main (String [] arg) {
+          int matriz_enteros [][] = net int [4][4] 
+              matriz_enteros [0] [0] = 10
+              matriz_enteros [0] [1] = 4
+              matriz_enteros [0] [2] = 56
+              matriz_enteros [0] [3] = 23
+              matriz_enteros [1] [0] = 47
+              matriz_enteros [1] [1] = 24
+              matriz_enteros [1] [2] = 37
+              matriz_enteros [1] [3] = 1
+              matriz_enteros [2] [0] = 2
+              matriz_enteros [2] [1] = 5
+              matriz_enteros [2] [2] = 31
+              matriz_enteros [2] [3] = 42
+              matriz_enteros [3] [0] =13
+              matriz_enteros [3] [1] = 6
+              matriz_enteros [3] [2] = 35
+              matriz_enteros [3] [3] = 8
+
+          for(int f = 0; f < 3; f++){ 
+          for(int c = 0; c < 3; f++){
+     System.out.println("En la posición f:" + f + "c: "+ c);
+     System.out.println ("guardo el siguiente valor:" matriz_enteros[f][c]); 
+}
+}
