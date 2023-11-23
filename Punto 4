@@ -2,4 +2,4 @@ nombre_completo = input("Nicole")
 
 letras_primer_nombre = [letra.upper() for letra in nombre_completo if letra.isalpha()]
 
-print(letras_primer_nombre)
+System.out.println(letras_primer_nombre)
