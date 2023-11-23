@@ -1,0 +1,9 @@
+//Crear un vector de 5 posiciones con datos ingresado por el usuario
+Vector=[]
+for i in range(5):
+    dato = float(input(i + 1))
+    vector.append(dato)
+//Calcular la suma de los elementos del vector
+suma_elementos=sum(vector)
+//Imprimir por pantalla la suma de los elementos
+Print(suma_elementos)
